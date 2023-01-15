@@ -2,9 +2,9 @@ import "../scss/app.scss";
 
 window.addEventListener("DOMContentLoaded", () => {
   // This block will be executed once the page is loaded and ready
-  const hotCollection = document.querySelectorAll("p .price .hot");
+  const hotCollection = document.querySelectorAll(".hot");
 
-  hotCollection.array.forEach(p => {
+  hotCollection.forEach(p => {
     p.textContent += "🔥";
   });
 
